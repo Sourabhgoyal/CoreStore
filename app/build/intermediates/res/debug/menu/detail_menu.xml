@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/share"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="share"/>
+	<item android:id="@+id/save"
+          android:icon="@android:drawable/ic_menu_save"
+          android:title="save"
+          android:showAsAction="ifRoom"
+          />
+</menu>
+<!-- From: file:/F:/New%20folder/CoreAppsStoreNewsStyle/app/src/main/res/menu/detail_menu.xml -->

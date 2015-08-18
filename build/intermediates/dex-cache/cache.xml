@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2">
+
+    <item jar="F:\New folder\CoreAppsStoreNewsStyle\app\libs\httpclient-4.3.6.jar" jumboMode="false"
+        revision="22.0.1" sha1="4c47155e3e6c9a41a28db36680b828ced53b8af4">
+        <dex
+            dex="F:\New folder\CoreAppsStoreNewsStyle\app\build\intermediates\pre-dexed\debug\httpclient-4.3.6-c0832419722c55c572b9f3c2db97dbd8b47e23b9.jar" />
+    </item>
+    <item jar="F:\New folder\CoreAppsStoreNewsStyle\app\libs\httpasyncclientlib-4.0.2.jar"
+        jumboMode="false" revision="22.0.1" sha1="6c0421e057af0fed081f0b8b4c4df829c4732a5c">
+        <dex
+            dex="F:\New folder\CoreAppsStoreNewsStyle\app\build\intermediates\pre-dexed\debug\httpasyncclientlib-4.0.2-3f7e4ae6ce7f19990f60284ba5063745b647f95c.jar" />
+    </item>
+    <item jar="F:\New folder\CoreAppsStoreNewsStyle\app\libs\httpmime-4.3.6.jar" jumboMode="false"
+        revision="22.0.1" sha1="cf8bacbf0d476c7f2221f861269365b66447f7ec">
+        <dex
+            dex="F:\New folder\CoreAppsStoreNewsStyle\app\build\intermediates\pre-dexed\debug\httpmime-4.3.6-e8734c35839c0f6c4e7ffb05f1c62f4951e264a2.jar" />
+    </item>
+    <item jar="F:\New folder\CoreAppsStoreNewsStyle\app\libs\libGoogleAnalyticsServices.jar"
+        jumboMode="false" revision="22.0.1" sha1="db1e65d9e3ee616f871cb23120fbea8f18ad3e4c">
+        <dex
+            dex="F:\New folder\CoreAppsStoreNewsStyle\app\build\intermediates\pre-dexed\debug\libGoogleAnalyticsServices-1f7102921ef85071fe94f5a0f414dbd721b07e12.jar" />
+    </item>
+    <item
+        jar="C:\Users\SOURABH\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false" revision="22.0.1" sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex
+            dex="F:\New folder\CoreAppsStoreNewsStyle\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-bcb4854296de9f1e1df3e4b098d0c571ce52b1b1.jar" />
+    </item>
+    <item
+        jar="F:\New folder\CoreAppsStoreNewsStyle\app\libs\ksoap2-android-assembly-2.4-jar-with-dependencies.jar"
+        jumboMode="false" revision="22.0.1" sha1="e8796346a9191a019e936210a2dc50662c57594b">
+        <dex
+            dex="F:\New folder\CoreAppsStoreNewsStyle\app\build\intermediates\pre-dexed\debug\ksoap2-android-assembly-2.4-jar-with-dependencies-db050600e647ab0500e49b6da1db12a5c3ed0ad2.jar" />
+    </item>
+    <item jar="F:\New folder\CoreAppsStoreNewsStyle\app\libs\unirest-java-1.4.6.jar"
+        jumboMode="false" revision="22.0.1" sha1="112c9a03b2697c9a24ef9d6302863301eb01f543">
+        <dex
+            dex="F:\New folder\CoreAppsStoreNewsStyle\app\build\intermediates\pre-dexed\debug\unirest-java-1.4.6-e2d6618b56000bd2ba20eb65ee8673855e8f262d.jar" />
+    </item>
+
+</items>

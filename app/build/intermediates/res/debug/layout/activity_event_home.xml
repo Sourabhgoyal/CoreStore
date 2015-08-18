@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout 
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/event_pager"
+android:background="#DCDCDC"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+             />
+          
+		<FrameLayout
+		            android:layout_weight="1"
+		            android:background="#DCDCDC"
+            android:id="@+id/content_event_frame_home"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" >
+        </FrameLayout>
+	
+        
+    </LinearLayout>
+ 		     
+<!-- From: file:/F:/New%20folder/CoreAppsStoreNewsStyle/app/src/main/res/layout/activity_event_home.xml -->

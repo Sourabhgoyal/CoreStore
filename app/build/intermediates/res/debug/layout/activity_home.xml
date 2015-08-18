@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout 
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/breakingNews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/holo_red_dark"
+        android:text="BREAKING NEWS"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:background="#DCDCDC"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+            />
+          
+		<FrameLayout
+		            android:layout_weight="1"
+		            android:background="#DCDCDC"
+            android:id="@+id/content_frame_home"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" >
+        </FrameLayout>
+	
+        
+    </LinearLayout>
+ 		     
+<!-- From: file:/F:/New%20folder/CoreAppsStoreNewsStyle/app/src/main/res/layout/activity_home.xml -->

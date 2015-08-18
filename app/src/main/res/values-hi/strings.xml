@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ग्रैबदैम</string>
+    <string name="action_settings">खोज</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string-array name="SignedInUser">
+        <item>होम</item>
+        <item>खाता</item>
+        <item>मेरे कूपन</item>
+        <item>बाहर निकालें</item>
+        <item>संपर्क करें</item>
+        <item>आसपास के ऑफर </item>
+
+    </string-array>
+    <string-array name="GuestUser">
+        <item>होम</item>
+        <item>प्रवेश करें</item>
+        <item>संपर्क करें</item>
+        <item>आसपास के ऑफर </item>
+
+    </string-array>
+    <string-array name="list_of_countries">
+        <item>USA</item>
+        <item>Uk</item>
+        <item>Canada</item>
+        <item>Australia</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>China</item>
+        <item>Japan</item>
+        <item>Spain</item>
+    </string-array>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="title_activity_load_test">LoadTestActivity</string>
+    <string name="title_activity_intitializer">Intitializer</string>
+    <string name="Loading_categories">प्रतीक्षा करें</string>
+    <string name="Login_Successfull">Login Successful</string>
+    <string name="News_Home">ऑफर होम</string>
+    <string name="My_Coupons">मेरे कूपन</string>
+    <string name="Image_Error">चित्र उपलब्ध नहीं अथवा नेटवर्क ख़राब हैी</string>
+    <string name="News">ऑफर</string>
+    <string name="Registration_Successfull">पंजीकरण सफल</string>
+    <string name="Options">विकल्प</string>
+    <string name="title_activity_location_news_detail">Location Offer Details</string>
+    <string name="companyName">ग्रैबदैम</string>
+    <string name="companyDetail">वो एप्लीकेशन जो आपको सही खर्चना सिखाये !</string>
+    <string name="companyAddress">428-जयपुर इलेक्ट्रॉनिक मार्किट मानसरोवर ,\n जयपुर ,\n राजस्थान</string>
+    <string name="companyMobNo">+91-8559859173</string>
+    <string name="companyEmailAddress">sourabhgoyal007@gmail.com</string>
+    <string name="companyContactPerson">सौरभ गोयल</string>
+    <string name="LBL_ADDRESS">पता</string>
+    <string name="LBL_SEARCH_YOUR_AREA">अपने इलाके में ढूंढे...</string>
+    <string name="LBL_FILTER_CRITERIA">फ़िल्टर मापदण्ड</string>
+    <string name="LBL_CHOOSE_CATEGORY">श्रेणी चुनें</string>
+    <string name="LBL_USERNAME">नाम</string>
+    <string name="LBL_PASSWORD">पासवर्ड</string>
+    <string name="LBL_SIGN_IN">प्रवेश करें</string>
+    <string name="LBL_SIGN_UP">रजिस्टर करें</string>
+    <string name="LBL_BUY_DEAL">Buy Deal</string>
+    <string name="LBL_DESCRIPTION">विस्तृत जानकारी</string>
+    <string name="LBL_LOCATION">स्थान</string>
+    <string name="LBL_MOBILE_NO">मोबाइल नंबर</string>
+    <string name="LBL_EMAIL_ADDRESS">ईमेल पता</string>
+    <string name="LBL_CONFIRM_PASSWORD">पपासवर्ड पुनः डालें</string>
+    <string name="LBL_LOCALITY">मुहल्ला</string>
+    <string name="LBL_CITY">शहर</string>
+    <string name="LBL_STATE">राज्य</string>
+    <string name="LBL_AGE">उम्र</string>
+    <string name="LBL_REFERRAL_CODE">रेफरल क्रमांक</string>
+    <string name="LBL_RESET">रीसेट</string>
+    <string name="LBL_NEWS_NOTIFICATION"> नए ऑफर !!</string>
+    <string name="LBL_INITIAL_SCREEN_TITLE">श्रेणी चुनें</string>
+</resources>

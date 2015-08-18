@@ -1,0 +1,131 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.coreapps.store.core.RechargeActivity"
+    android:background="@drawable/bg5"
+
+    >
+
+    <LinearLayout
+        android:layout_width="275dp"
+        android:weightSum="2"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center">
+
+        <RadioGroup
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="Self  "
+                android:checked="true"
+                android:gravity="center"
+                android:onClick="self"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/roundcorners"
+                android:id="@+id/radioButton"
+                android:layout_weight="0.52" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_height="40dp"
+                android:background="@drawable/roundcorners"
+                android:text="Other"
+                android:onClick="other"
+                android:id="@+id/radioButton2"
+                android:layout_weight="0.52" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="+91"
+            android:gravity="center"
+            android:background="@drawable/roundcorners"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:inputType="phone"
+            android:layout_marginLeft="20dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint=" Phone No."
+            android:background="@drawable/roundcorners"
+            android:id="@+id/mobNoForRecharge"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center">
+        <Spinner
+            android:layout_width="272dp"
+            android:layout_height="40dp"
+            android:background="@drawable/roundcorners"
+            android:entries="@array/serviceprovider"
+            android:id="@+id/operatorType"></Spinner>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="272dp"
+            android:layout_height="40dp"
+            android:inputType="number"
+            android:hint="Amount"
+            android:gravity="center"
+            android:id="@+id/amountToCharge"
+            android:background="@drawable/roundcorners"/>
+
+
+    </LinearLayout>
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Plans"
+        android:layout_marginTop="30dp"
+        android:textColor="#ffff"
+        android:layout_gravity="right"
+        android:background="@drawable/circlebutton"
+        android:id="@+id/viewPlans"
+        android:layout_marginRight="10dp"
+        android:onClick="viewPlans" />
+    <Button
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:text="Redeem"
+        android:onClick="redeem"
+        android:textColor="#ffffff"
+        android:background="#5d6cc0"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
+<!-- From: file:/F:/New%20folder/CoreAppsStoreNewsStyle/app/src/main/res/layout/activity_recharge.xml -->

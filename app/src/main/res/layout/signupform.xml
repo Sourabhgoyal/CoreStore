@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <EditText
+            android:id="@+id/signup_userName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="@string/LBL_USERNAME">
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/Email_ID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/signup_userName"
+            android:layout_marginTop="14dp"
+            android:ems="10"
+            android:hint="@string/LBL_EMAIL_ADDRESS" />
+
+        <EditText
+            android:id="@+id/MobileNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/Email_ID"
+            android:layout_marginTop="24dp"
+            android:ems="10"
+            android:hint="@string/LBL_MOBILE_NO" />
+
+        <EditText
+            android:id="@+id/signup_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/MobileNo"
+            android:layout_marginTop="24dp"
+            android:ems="10"
+            android:hint="@string/LBL_PASSWORD" />
+
+        <EditText
+            android:id="@+id/confirm_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/signup_password"
+            android:layout_marginTop="22dp"
+            android:ems="10"
+            android:hint="@string/LBL_CONFIRM_PASSWORD" />
+
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/refferalCode"
+            android:layout_marginLeft="63dp"
+            android:layout_toRightOf="@+id/btnSignUp"
+            android:text="@string/LBL_RESET" />
+
+        <Button
+            android:id="@+id/btnSignUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/refferalCode"
+            android:onClick="signUpUser"
+            android:text="@string/LBL_SIGN_UP" />
+
+        <EditText
+            android:id="@+id/refferalCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/age"
+            android:ems="10"
+            android:hint="@string/LBL_REFERRAL_CODE" />
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/confirm_password"
+            android:ems="10"
+            android:hint="@string/LBL_ADDRESS" />
+
+        <EditText
+            android:id="@+id/locality"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/address"
+            android:ems="10"
+            android:hint="@string/LBL_LOCALITY" />
+
+        <EditText
+            android:id="@+id/city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/locality"
+            android:ems="10"
+            android:hint="@string/LBL_CITY" />
+
+        <EditText
+            android:id="@+id/State"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/city"
+            android:ems="10"
+            android:hint="@string/LBL_STATE" />
+
+        <EditText
+            android:id="@+id/age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/State"
+            android:ems="10"
+            android:hint="@string/LBL_AGE" />
+
+    </RelativeLayout>
+</ScrollView>

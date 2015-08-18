@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/F:/New%20folder/CoreAppsStoreNewsStyle/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="FilterCriterias">
+        <item>category</item>
+    </string-array>
+    <string-array name="GuestUser">
+        <item>Home</item>
+        <item>About Us</item>
+        <item>News Near You</item>
+        <item>Events</item>
+        <item>Settings</item>
+        <item>Share Our App</item>
+    </string-array>
+    <string-array name="SignedInUser">
+
+        <item>Home</item>
+        <item>Account</item>
+        <item>About Us</item>
+        <item>Recharge</item>
+        <item>Events</item>
+        <item>Settings</item>
+        <item>Share Our App</item>
+    </string-array>
+    <string-array name="cities">
+        <item>Jaipur</item>
+        <item>Ajmer</item>
+        <item>Udaipur</item>
+    </string-array>
+    <string-array name="leftNavImages">
+        <item>@drawable/homeicon</item>
+    </string-array>
+    <string-array name="list_of_countries">
+        <item>India</item>
+        <item>USA</item>
+        <item>Uk</item>
+        <item>Canada</item>
+        <item>Australia</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>China</item>
+        <item>Japan</item>
+        <item>Spain</item>
+    </string-array>
+    <array name="serviceprovider">
+        <item>Aircel</item>
+        <item>Airtel</item>
+        <item>BSNL</item>
+        <item>BSNL Special</item>
+        <item>Idea</item>
+        <item>Vodafone</item>
+        <item>Docomo GSM</item>
+        <item>Docomo GSM Special</item>
+       <!-- <item>Docomo CDMA (Indicom)</item>-->
+        <item>Reliance GSM</item>
+        <item>Reliance CDMA</item>
+       <!-- <item>MTS</item>-->
+        <item>Uninor</item>
+        <item>Uninor Special</item>
+        <item>Videocon</item>
+        <item>Videocon Special</item>
+       <!-- <item>MTNL Mumbai</item>
+        <item>MTNL Mumbai Special</item>
+        <item>MTNL Delhi</item>
+        <item>MTNL Delhi Special</item>-->
+        <item>Virgin GSM</item>
+       <!-- <item>Virgin GSM Special</item>
+        <item>Virgin CDMA</item>
+        <item>T24</item>
+        <item>T24 Special</item>-->
+    </array>
+    <!-- From: file:/F:/New%20folder/CoreAppsStoreNewsStyle/app/src/main/res/values/analytics.xml -->
+    <eat-comment/>
+    <bool name="ga_autoActivityTracking">true</bool>
+    <bool name="ga_reportUncaughtExceptions">true</bool>
+    <!-- From: file:/F:/New%20folder/CoreAppsStoreNewsStyle/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="black_overlay">#66000000</color>
+    <declare-styleable name="ButtonBarContainerTheme"><attr format="reference" name="buttonBarStyle"/><attr format="reference" name="buttonBarButtonStyle"/></declare-styleable>
+    <!-- From: file:/F:/New%20folder/CoreAppsStoreNewsStyle/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/F:/New%20folder/CoreAppsStoreNewsStyle/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <drawable name="focused">#ff5f00</drawable>
+    <drawable name="selected">#FF00FF</drawable>
+    <string name="APPLINK">To know more about the news near you,download our app\n https://play.google.com/store/apps/details?id=com.sourabh.appsamaj.core</string>
+    <string name="Image_Error"/>
+    <string name="LBL_ADDRESS">Address</string>
+    <string name="LBL_AGE">Age</string>
+    <string name="LBL_ATTRACTION_POINT">Attraction Point</string>
+    <string name="LBL_BUY_DEAL">Buy Deal</string>
+    <string name="LBL_CHOOSE_AREA">Type your area here...</string>
+    <string name="LBL_CHOOSE_CATEGORY">Choose a category</string>
+    <string name="LBL_CITY">City</string>
+    <string name="LBL_CONFIRM_PASSWORD">Confirm Password</string>
+    <string name="LBL_DESCRIPTION">DESCRIPTION</string>
+    <string name="LBL_EMAIL_ADDRESS">Email Address</string>
+    <string name="LBL_ENTER_CITY">Enter Your City</string>
+    <string name="LBL_EVENTS_NOTIFICATION"> New Events !!</string>
+    <string name="LBL_EXPIRES_ON">Till</string>
+    <string name="LBL_FILTER_CRITERIA">Filter Criteria</string>
+    <string name="LBL_INITIAL_SCREEN_TITLE">Select Categories</string>
+    <string name="LBL_LOCALITY">Locality</string>
+    <string name="LBL_LOCATION">LOCATION</string>
+    <string name="LBL_MOBILE_NO">Mobile No</string>
+    <string name="LBL_NEWS_NOTIFICATION"> New News !!</string>
+    <string name="LBL_ORGANIZER_DETAIL">Organizer Detail</string>
+    <string name="LBL_PASSWORD">Password</string>
+    <string name="LBL_REFERRAL_CODE">Referral code</string>
+    <string name="LBL_RESET">Reset</string>
+    <string name="LBL_SAVE">save</string>
+    <string name="LBL_SAVED_PAGES">Saved News Pages</string>
+    <string name="LBL_SEARCH_YOUR_AREA">Search your area...</string>
+    <string name="LBL_SHARE_VIA">Share Via</string>
+    <string name="LBL_SIGN_IN">Sign In</string>
+    <string name="LBL_SIGN_UP">Sign Up</string>
+    <string name="LBL_STATE">State</string>
+    <string name="LBL_USERNAME">Username</string>
+    <string name="Loading_categories">Loading Categories</string>
+    <string name="Loading_news">Loading News</string>
+    <string name="Login_Successfull">Login Successful</string>
+    <string name="MSG_CITY_CHANGED">City Changed</string>
+    <string name="MSG_FILE_DELETED">News Deleted</string>
+    <string name="MSG_NEWS_NOT_AVAILABLE">News no more available</string>
+    <string name="MSG_NEWS_SAVED">News Saved</string>
+    <string name="MSG_PLAY_VIDEO">A video is attached with detail,click to play.</string>
+    <string name="My_Coupons">My Coupons</string>
+    <string name="News">News</string>
+    <string name="News_Home">News Home</string>
+    <string name="Options">Options</string>
+    <string name="Registration_Successfull">Registration Successful</string>
+    <string name="UPDATING_INFO">Updating Info...</string>
+    <string name="action_settings">Filter</string>
+    <string name="app_name">CoreApps Store</string>
+    <!-- From: file:/F:/New%20folder/CoreAppsStoreNewsStyle/app/src/main/res/values/analytics.xml -->
+    <eat-comment/>
+    <string name="com.sourabh.core.MainActivity">Main</string>
+    <!-- From: file:/F:/New%20folder/CoreAppsStoreNewsStyle/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="companyAddress">428-Jaipur Electronic Market \n Mansarovar \n Jaipur \n Rajasthan</string>
+    <string name="companyContactPerson">Sourabh Goyal</string>
+    <string name="companyDetail">The application that enables you to spend wisely.</string>
+    <string name="companyEmailAddress">sourabhgoyal007@gmail.com</string>
+    <string name="companyMobNo">+91-8559859173</string>
+    <string name="companyName">grabThem</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <!-- From: file:/F:/New%20folder/CoreAppsStoreNewsStyle/app/src/main/res/values/analytics.xml -->
+    <eat-comment/>
+    <string name="ga_trackingId">UA-37195003-2</string>
+    <!-- From: file:/F:/New%20folder/CoreAppsStoreNewsStyle/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_aboutUs">About Us</string>
+    <string name="title_activity_apps_grid">AppsGridActivity</string>
+    <string name="title_activity_eventDetails">Event Details</string>
+    <string name="title_activity_event_main">Events In The City</string>
+    <string name="title_activity_full_screen_image">FullScreenImage</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="title_activity_intitializer">Categories</string>
+    <string name="title_activity_load_test">LoadTestActivity</string>
+    <string name="title_activity_location_news_detail">Location News Details</string>
+    <string name="title_activity_login">Login Form</string>
+    <string name="title_activity_newsDetails">News Details</string>
+    <string name="title_activity_operator_plans">OperatorPlans</string>
+    <string name="title_activity_recharge">RechargeActivity</string>
+    <string name="title_activity_sample_search">SampleSearchActivity</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_sign_up">Sign Up Form</string>
+    <string name="title_activity_video_player">Video Player</string>
+    <!-- From: file:/F:/New%20folder/CoreAppsStoreNewsStyle/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="ButtonBar">
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:background">@android:drawable/bottom_bar</item>
+    </style>
+    <style name="ButtonBarButton"/>
+    <style name="FullscreenTheme" parent="android:Theme.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="buttonBarStyle">@style/ButtonBar</item>
+        <item name="buttonBarButtonStyle">@style/ButtonBarButton</item>
+    </style>
+</resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.sourabh.appnews.core"
+    android:versionCode="4"
+    android:versionName="2.2">
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission
+        android:name="android.permission.INSTALL_PACKAGES"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.sourabh.gpstracking.GpsMainActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/FullscreenTheme"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".SignUpActivity"
+            android:label="@string/title_activity_sign_up"></activity>
+
+        <receiver android:name=".AlarmReciever"></receiver>
+
+        <activity
+            android:name=".Intitializer"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sourabh.events.EventMainActivity"
+            android:label="@string/title_activity_event_main"></activity>
+        <activity
+            android:name="com.sourabh.events.EventDetailFragment"
+            android:label="@string/title_activity_eventDetails"></activity>
+        <activity
+            android:name=".NewsDetailFragment"
+            android:label="@string/title_activity_newsDetails"></activity>
+        <activity
+            android:name=".Settings"
+            android:label="@string/title_activity_settings"></activity>
+        <activity
+            android:name=".AboutUs"
+            android:label="@string/title_activity_aboutUs"></activity>
+        <activity
+            android:name=".FullScreenImage"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/FullscreenTheme"></activity>
+        <activity
+            android:name=".VideoPlayerActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_video_player"></activity>
+        <activity
+            android:name=".FullscreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_fullscreen"
+            android:theme="@style/FullscreenTheme"></activity>
+        <activity
+            android:name=".RechargeActivity"
+            android:label="@string/title_activity_recharge"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"></activity>
+        <activity
+            android:name=".OperatorPlans"
+            android:label="@string/title_activity_operator_plans"></activity>
+        <activity
+            android:name=".AppsGridActivity"
+            android:label="@string/title_activity_apps_grid"></activity>
+    </application>
+
+</manifest>
